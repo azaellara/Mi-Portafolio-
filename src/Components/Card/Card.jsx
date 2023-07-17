@@ -47,7 +47,7 @@ const Carta = () => {
         LAST <Raya>PROJECTS</Raya>
       </Typography>
       <Container>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, marginBottom: "2rem" }}>
           <CardMedia
             sx={{ height: 170 }}
             image={encriptador}
@@ -82,7 +82,7 @@ const Carta = () => {
             </Stack>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, marginBottom: "2rem" }}>
           <CardMedia sx={{ height: 170 }} image={miorg} title="Mi org" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -114,7 +114,7 @@ const Carta = () => {
             </Stack>
           </CardActions>
         </Card>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345, marginBottom: "2rem" }}>
           <CardMedia
             sx={{ height: 170 }}
             image={taskcreator}
