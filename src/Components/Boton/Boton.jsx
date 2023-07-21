@@ -15,7 +15,7 @@ const Img = styled("img")({
 const Boton = () => {
   return (
     <Caja>
-      <a href="https://wa.link/tjcbnn" target="_blank">
+      <a href="#" target="_blank">
         <Img src={whatsapp} />
       </a>
     </Caja>
