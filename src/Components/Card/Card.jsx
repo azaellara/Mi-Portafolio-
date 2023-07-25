@@ -12,6 +12,7 @@ import styled from "@emotion/styled";
 import background1 from "../../assets/images/background1.svg";
 import miorg from "../../assets/images/miorg.webp";
 import taskcreator from "../../assets/images/taskcreator.webp";
+import pokedex from "../../assets/images/pokedex.png";
 
 const Seccion = styled("section")({
   margin: "1rem 0",
@@ -151,6 +152,37 @@ const Carta = () => {
           </CardActions>
         </Card>
       </Container>
+      <Card sx={{ maxWidth: 345, marginBottom: "2rem" }}>
+        <CardMedia sx={{ height: 170 }} image={pokedex} title="Pokedex" />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Pokedex
+          </Typography>
+          <Typography variant="body2">
+            Esta es una app es napokedes utilizando react-router-dom, useState,
+            useEffect,y useContext
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Stack spacing={2} direction="row" margin="2rem 0">
+            <Button
+              variant="contained"
+              href="https://pokedex-xi-self.vercel.app/"
+              target="_blank"
+            >
+              Demo
+            </Button>
+            <Button
+              variant="outlined"
+              href="https://github.com/azaellara/pokedex"
+              target="_black"
+              startIcon={<GitHubIcon />}
+            >
+              Code
+            </Button>
+          </Stack>
+        </CardActions>
+      </Card>
     </Seccion>
   );
 };
